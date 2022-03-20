@@ -15,6 +15,10 @@ header {
     color: #ffffff;
 }
 
+/* 
+got rid of header as a class to follow proper semantics
+*/
+
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -23,6 +27,10 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* 
+replaced div with nav for headers to connect parameters to html doc
+*/
 
 header nav {
     padding-top: 15px;
@@ -50,15 +58,15 @@ p {
     font-size: 16px;
 }
 
+/*
+moved background image from .css to html to add alt attributes
+removed unnecessary background image stylings
+*/
+
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    /*
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-    */
 }
 
 .float-left {
@@ -88,21 +96,38 @@ p {
     background-color: #2589bd;
 }
 
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/*
+consolidated 3 items with identical formatting
+*/
 
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
+consolidated 3 items with identical formatting
+*/
+
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* 
+combined 3 benefits elements under one class of benefit
+rearranged the order of .css in more appropriate tiers to keep related items together
+*/
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* 
+combined 3 article elements under one class of feature
+*/
 
 .feature {
     margin-bottom: 20px;
@@ -121,6 +146,10 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* 
+got rid of footer as a class to follow proper semantics
+*/
 
 footer {
     padding: 30px;
