@@ -8,6 +8,8 @@ Semantic element changes
 - Linked "search enging optimization" to nav by adding id
 - Changed footer from <div class="footer"> into element <footer>
 - Changed header from <div class="header"> into element <header>
+- Added header, nav, section, article, and footer semantics
+
 
 Alt attributes changes
 - Added a title to the section .hero to create a text description of the background image
@@ -15,7 +17,7 @@ Alt attributes changes
 - Added blank alt to icons
 
 Heading order changes
-
+- added spaces between articles and sections for accessibility
 
 .CSS changes
 - Created "benefit" class to group identical formatting of benefit-brand, benefit-cost, benefit-lead
