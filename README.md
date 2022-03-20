@@ -7,6 +7,7 @@ Semantic element changes
 - Changed basic <div> to <nav> and adjusted .css file accordingly (div became nav)
 - Linked "search enging optimization" to nav by adding id
 - Changed footer from <div class="footer"> into element <footer>
+- Changed header from <div class="header"> into element <header>
 
 Alt attributes changes
 - Added a title to the section .hero to create a text description of the background image
@@ -19,3 +20,4 @@ Heading order changes
 .CSS changes
 - Created "benefit" class to group identical formatting of benefit-brand, benefit-cost, benefit-lead
 - Created "feature" class to group identical formatting of search-engine-optimization, online-reputation-management, social-media-marketing
+- Added hero background image from css to html as img src with added alt description
