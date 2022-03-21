@@ -7,14 +7,14 @@ The aim of this project was to refactor the code for the Horiseon page provided 
 Title of project was changed from "website" to "Horiseon Homepage" 
 
 ## Semantic element changes
-- Changed basic <div> to <nav> and adjusted .css file accordingly (div became nav)
+- Changed basic < div > to < nav > and adjusted .css file accordingly (div became nav)
 
-![Changing relevant <div> items to <nav> in CSS](./assets/READMEScreenshots/Nav%20edit.png)
+![Changing relevant div items to nav in CSS](./assets/READMEScreenshots/Nav%20edit.png)
 
 ![Linked "search enging optimization" to nav by adding id](./assets/READMEScreenshots/searchengineoptimization%20id.png)
 
-- Changed footer from <div class="footer"> into element <footer>
-- Changed header from <div class="header"> into element <header>
+- Changed footer from < div class="footer"> into element <footer>
+- Changed header from < div class="header"> into element <header>
 
 ![Cleaned up header and footer semantics](./assets/READMEScreenshots/headerfooterchange.png)
 
