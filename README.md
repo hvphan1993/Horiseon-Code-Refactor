@@ -9,16 +9,18 @@ Title of project was changed from "website" to "Horiseon Homepage"
 ## Semantic element changes
 - Changed basic < div > to < nav > and adjusted .css file accordingly (div became nav)
 
-![Changing relevant div items to nav in CSS](./assets/READMEScreenshots/Nav%20edit.png)
+![Changed relevant div items to nav in CSS](./assets/READMEScreenshots/Nav%20edit.png)
 
-![Linked "search enging optimization" to nav by adding id](./assets/READMEScreenshots/searchengineoptimization%20id.png)
+- Linked "search engine optimization" to nav by adding id indicator #.
 
-- Changed footer from < div class="footer"> into element <footer>
-- Changed header from < div class="header"> into element <header>
+![Linked "search engine optimization" to nav by adding id indicator](./assets/READMEScreenshots/searchengineoptimization%20id.png)
+
+- Changed footer from < div class="footer"> into element < footer>
+- Changed header from < div class="header"> into element < header>
 
 ![Cleaned up header and footer semantics](./assets/READMEScreenshots/headerfooterchange.png)
 
-- Added header, nav, section, article, and footer semantics
+- Added header, nav, section, article, and footer semantics throughout code to replace div.
 
 
 
